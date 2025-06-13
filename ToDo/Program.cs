@@ -14,7 +14,7 @@ namespace ToDo
     {
         static void Main(string[] args)
         {
-            string path = @"C:\Users\danni\source\repos\ToDo\MyToDo.txt";
+            string path = @"C:\Users\danni\documents\MyToDo.txt";
             if (!File.Exists(path))
             {
                 //create a file to write to
